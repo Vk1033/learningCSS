@@ -1,0 +1,38 @@
+.input {
+  margin: 0.25rem;
+  padding: 0.5em;
+  border: 0.75px solid #ccc;
+  border-radius: 0.3em;
+  outline: none;
+  font-size: inherit;
+}
+
+.input-success {
+  border: 0.75px solid green;
+}
+
+.input-success:focus {
+  border: 0.75px solid green;
+  box-shadow: 0 0 5px 0 green;
+}
+
+.input-error {
+  border: 0.75px solid red;
+}
+
+.input-error:focus {
+  border: 0.75px solid red;
+  box-shadow: 0 0 5px 0 red;
+}
+
+.input-large {
+  font-size: 1.25rem;
+}
+.input-small {
+  font-size: 0.75rem;
+}
+
+.input:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}

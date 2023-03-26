@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  justify-content: space-between;
+  height: 1.5rem;
+  background-color: #323232;
+  padding: 1.5rem;
+}
+
+.nav-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.link:hover {
+  background-color: #555;
+}
